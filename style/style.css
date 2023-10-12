@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 5vh;
+    
+}
+.flex{
+    display: flex;
+}
+
+.parte-sopra{
+    color: white;
+    font-size: 10px;
+    text-align: end;
+    justify-content: flex-end;
+}
+
+.bottone{
+    size: 2rem;
+    border-radius: 5px;
+}
+
+.contenitore{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+.riga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+article.figurina{
+    width: calc((100% / 9) - .5rem);
+    margin:  2rem .25rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+article.prodotto img{
+    height: 100%;
+    width: 100%;
+}
+
+.muto{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+.immagine{
+    width: 100%;
+    height: 100%;
+}
