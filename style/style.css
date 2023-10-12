@@ -45,7 +45,7 @@ header{
 }
 article.figurina{
     width: calc((100% / 9) - .5rem);
-    margin:  2rem .25rem;
+    margin:  0.5rem .25rem;
     position: relative;
     display: flex;
     justify-content: center;
